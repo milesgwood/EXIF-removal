@@ -26,7 +26,7 @@ Sensitive EXIF data fields:
 
 Some EXIF data is pretty vital. For example `Orientation` data is often used to make sure images display correctly. This could cause problems on the site especially for images already uploaded.
 
-## Determine what version of jQuery decrimusa.org uses - DONE
+## What version of jQuery is decrimusa.org using - DONE
 
 The site uses version 3.5.1 of jQuery.
 
@@ -43,20 +43,16 @@ We want to check for EXIF data using JS or jQuery and notify the user that there
 
 ## Delete EXIF Data Client Side
 
-Option 1 - [This fiddle](https://jsfiddle.net/mowglisanu/frhwm2xe/3/) shows how to prune exif data using JS client side and provides a exif free image to download.
+Option 1 `delete-exif-data-with-download` - [This fiddle](https://jsfiddle.net/mowglisanu/frhwm2xe/3/) shows how to prune exif data using JS client side and provides a exif free image to download.
 
-Option 2 - jQuery [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a image client side.
+Option 2 `view-exif-command-line` - jQuery [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a jpeg image client side.
 
-## View exif data on command line - DONE
+Option 3 `create-folder` - [Exif.js library](https://github.com/exif-js/exif-js) - Explore this library for EXIF removal options. [This stack overflow answer](https://stackoverflow.com/questions/10341685/html-javascript-access-exif-data-before-file-upload?noredirect=1&lq=1) seems promising.
 
-Using the `exiftool` command we can view any exif data easily. [Download and install tool](https://exiftool.org/).
+# Implement EXIF removal solution within WordPress
 
-```
-sudo apt-get install exiftool
-sudo apt install libimage-exiftool-perl
+TODO
 
-View the data
+# Find a EXIF cleaning tool to run server side within the WP uploads folder
 
-exiftool img/jpg1.jpg
-exiftool img/jpg/1.jpg | grep "GPS Latitude"
-```
+TODO
