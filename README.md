@@ -41,18 +41,24 @@ We want to check for EXIF data using JS or jQuery and notify the user that there
 
 [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a image client side using jQuery.
 
+## View EXIF Data
+
+On Command Line you can use `exiftool` to view EXIF data. Check the [view-exif-command-line folder](./view-exif-command-line).
+
+Using jQuery you can view and check for EXIF data `view-exif-data-jQuery` - [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a jpeg image client side. [View updated version of this script](./view-exif-data-jQuery)
+
 ## Delete EXIF Data Client Side
 
 Option 1 `delete-exif-data-with-download` - [This fiddle](https://jsfiddle.net/mowglisanu/frhwm2xe/3/) shows how to prune exif data using JS client side and provides a exif free image to download.
 
-Option 2 `view-exif-command-line` - jQuery [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a jpeg image client side.
+Option 2 `delete-exif-data-modifying-blob` - [Exif.js library](https://github.com/exif-js/exif-js) - Explore this library for EXIF removal options. [This stack overflow answer](https://stackoverflow.com/questions/10341685/html-javascript-access-exif-data-before-file-upload?noredirect=1&lq=1) seems promising.
 
-Option 3 `create-folder` - [Exif.js library](https://github.com/exif-js/exif-js) - Explore this library for EXIF removal options. [This stack overflow answer](https://stackoverflow.com/questions/10341685/html-javascript-access-exif-data-before-file-upload?noredirect=1&lq=1) seems promising.
-
-# Implement EXIF removal solution within WordPress
+# Implement JS EXIF removal solution within WordPress
 
 TODO
 
-# Find a EXIF cleaning tool to run server side within the WP uploads folder
+# Delete EXIF data Server side
+
+Find a EXIF cleaning tool to run server side within the WP uploads folder.
 
 TODO

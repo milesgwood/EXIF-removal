@@ -1,0 +1,12 @@
+.flex-container {
+  padding-top: 4rem;
+  display: flex;
+}
+
+img {
+  width: 400px;
+}
+
+.half {
+  width: 50%;
+}
