@@ -35,17 +35,15 @@ $().jquery;
 3.5.1
 ```
 
-## Cause File Uploads to fail if EXIF data is detected
-
-We want to check for EXIF data using JS or jQuery and notify the user that there is private metadata that needs removal.
-
-[This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a image client side using jQuery.
-
 ## View EXIF Data
 
 On Command Line you can use `exiftool` to view EXIF data. Check the [view-exif-command-line folder](./view-exif-command-line).
 
 Using jQuery you can view and check for EXIF data `view-exif-data-jQuery` - [This fiddle](https://codepen.io/romswellparian/pen/VLWBjz) shows the EXIF data on a jpeg image client side. [View updated version of this script](./view-exif-data-jQuery)
+
+## Show warning if EXIF data is detected
+
+Show EXIF data on the upload and report an error message if EXIF data detected.
 
 ## Delete EXIF Data Client Side
 
